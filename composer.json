@@ -1,5 +1,5 @@
 {
-  "name": "siarkowodor/h2s-core",
+  "name": "h2sf/core",
   "description": "H2S Framework Core Library",
   "minimum-stability": "stable",
   "license": "proprietary",
@@ -15,18 +15,18 @@
     "src/bin/index.php"
   ],
   "require": {
-    "siarkowodor/h2s-bootstrap": "^0.1.0",
-    "siarkowodor/h2s-admin": "^0.1.0",
-    "siarkowodor/h2s-modules": "^0.1.0",
-    "siarkowodor/h2s-plugins": "^0.1.0",
-    "siarkowodor/h2s-url-service": "^0.1.0",
-    "siarkowodor/h2s-controller-routing": "^0.1.0",
-    "siarkowodor/h2s-block-layout": "^0.1.0",
-    "siarkowodor/h2s-translations": "^0.1.0",
-    "siarkowodor/h2s-db-model-api": "^0.1.0",
-    "siarkowodor/h2s-cli": "^0.1.0",
-    "siarkowodor/h2s-cms": "^0.1.0",
-    "siarkowodor/profiler": "^0.1"
+    "h2sf/bootstrap": "^0.1.0",
+    "h2sf/admin": "^0.1.0",
+    "h2sf/modules": "^0.1.0",
+    "h2sf/plugins": "^0.1.0",
+    "h2sf/url-service": "^0.1.0",
+    "h2sf/controller-routing": "^0.1.0",
+    "h2sf/block-layout": "^0.1.0",
+    "h2sf/translations": "^0.1.0",
+    "h2sf/db-model-api": "^0.1.0",
+    "h2sf/cli": "^0.1.0",
+    "h2sf/cms": "^0.1.0",
+    "h2sf/profiler": "^0.1"
   },
   "autoload": {
     "psr-4": {
