@@ -25,8 +25,7 @@
     "h2sf/translations": "^0.1.0",
     "h2sf/db-model-api": "^0.1.0",
     "h2sf/cli": "^0.1.0",
-    "h2sf/cms": "^0.1.0",
-    "h2sf/profiler": "^0.1"
+    "siarkowodor/profiler": "^0.1"
   },
   "autoload": {
     "psr-4": {
