@@ -12,6 +12,7 @@
   ],
   "require": {
     "h2sf/bootstrap": "^0.1.0",
+    "h2sf/deployment": "^0.1.0",
     "h2sf/admin": "^0.1.0",
     "h2sf/modules": "^0.1.0",
     "h2sf/plugins": "^0.1.0",
