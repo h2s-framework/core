@@ -14,7 +14,7 @@ if(file_exists($GLOBALS['_composer_autoload_path'])){
     die("APPLICATION AUTOLOADER NOT FOUND!");
 }
 
-$projectRoot = dirname(dirname($GLOBALS['_composer_bin_dir']));
+$projectRoot = dirname(dirname($GLOBALS['_composer_autoload_path']));
 
 \Siarko\Profiler\Profiler::start();
 \Siarko\Profiler\Profiler::start('BootstrapConfig');
