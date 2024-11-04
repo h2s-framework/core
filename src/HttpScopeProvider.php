@@ -10,27 +10,13 @@ use Siarko\UrlService\UrlProvider;
 class HttpScopeProvider implements ScopeProviderInterface
 {
 
-    public const SCOPE_ADMIN = 'admin';
     public const SCOPE_FRONTEND = 'frontend';
 
     /**
-     * @param UrlProvider $urlProvider
+     * @return ?string
      */
-    public function __construct(
-        private readonly \Siarko\UrlService\UrlProvider $urlProvider
-    )
+    public function getScope(): ?string
     {
-    }
-
-    /**
-     * @return string
-     */
-    public function getScope(): string
-    {
-        $suffix = $this->urlProvider->getSuffix();
-        if(str_starts_with($suffix, self::SCOPE_ADMIN)){
-            return self::SCOPE_ADMIN;
-        }
         return self::SCOPE_FRONTEND;
     }
 }

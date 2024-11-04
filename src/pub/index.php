@@ -18,7 +18,6 @@ $projectRoot = dirname(dirname($GLOBALS['_composer_autoload_path']));
 
 \Siarko\Profiler\Profiler::start();
 \Siarko\Profiler\Profiler::start('BootstrapConfig');
-\Siarko\Api\State\Scope\ScopeProviderRegistry::setProvider(HttpScopeProvider::class);
 $bootstrap = new Siarko\Bootstrap\Bootstrap($projectRoot);
 \Siarko\Profiler\Profiler::end();
 \Siarko\Profiler\Profiler::start('BootstrapRun');

@@ -1,9 +1,9 @@
 {
   "name": "h2sf/core",
   "description": "H2S Framework Core Library",
-  "minimum-stability": "stable",
   "license": "proprietary",
   "type": "library",
+  "version": "0.1.5",
   "authors": [
     {
       "name": "H2S",
@@ -15,7 +15,7 @@
     "h2sf/deployment": "^0.1.0",
     "h2sf/admin": "^0.1.0",
     "h2sf/modules": "^0.1.0",
-    "h2sf/plugins": "^0.1.0",
+    "h2sf/plugins": "^0.1",
     "h2sf/url-service": "^0.1.0",
     "h2sf/controller-routing": "^0.1.0",
     "h2sf/block-layout": "^0.1.0",
@@ -27,6 +27,9 @@
   "autoload": {
     "psr-4": {
       "Siarko\\H2SCore\\": "src/"
-    }
+    },
+    "files": [
+      "src/Config/boot.php"
+    ]
   }
 }
