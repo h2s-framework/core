@@ -11,14 +11,15 @@
     }
   ],
   "require": {
+    "h2sf/api": "^0.1.1",
     "h2sf/bootstrap": "^0.1.0",
     "h2sf/deployment": "^0.1.0",
-    "h2sf/admin": "^0.1.0",
+    "h2sf/admin": "^0.1.1",
     "h2sf/modules": "^0.1.0",
     "h2sf/plugins": "^0.1",
     "h2sf/url-service": "^0.1.0",
-    "h2sf/controller-routing": "^0.1.0",
-    "h2sf/block-layout": "^0.1.0",
+    "h2sf/controller-routing": "^0.1",
+    "h2sf/block-layout": "^0.1.1",
     "h2sf/translations": "^0.1.0",
     "h2sf/db-model-api": "^0.1.0",
     "h2sf/cli": "^0.1.0",
