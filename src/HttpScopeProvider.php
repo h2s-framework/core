@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Siarko\H2SCore;
 
 use Siarko\Api\State\Scope\ScopeProviderInterface;
-use Siarko\UrlService\UrlProvider;
 
 class HttpScopeProvider implements ScopeProviderInterface
 {
